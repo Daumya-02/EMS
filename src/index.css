@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+  font-family: 'Roboto Condensed';
+}
+
+body{
+  background-color:#161428 ;
+}
+
+#tasklist::-webkit-scrollbar {
+  height: 4px; /* Thin scrollbar */
+}
+
+#tasklist::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#tasklist::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#tasklist::-webkit-scrollbar-button {
+  display: none; /* Remove buttons */
+}
+
+#AllTask::-webkit-scrollbar {
+  width: 4px; /* Thin scrollbar */
+}
+
+#AllTask::-webkit-scrollbar-thumb {
+  background-color: #3d76e7;
+  border-radius: 10px;
+}
+
+#AllTask::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 4px;
+}
+
+#AllTask::-webkit-scrollbar-button {
+  display: none; /* Remove buttons */
+}
