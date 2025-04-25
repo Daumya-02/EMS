@@ -2,7 +2,7 @@ const admin = [
   {
     "id": 1,
     "name": "Aarav",
-    "email": "admin@example.com",
+    "email": "admin@me.com",
     "password": "123"
   }
 ];
@@ -10,7 +10,7 @@ const admin = [
 const employees = [
   {
     "id": 1,
-    "name": "Rohan",
+    "name": "Abhinav",
     "email": "employee1@example.com",
     "password": "123",
     "task_count": {
